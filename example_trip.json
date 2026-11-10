@@ -1,0 +1,650 @@
+{
+  "sacks": [
+    {
+      "name": "Carry-on",
+      "weight_limit": 22,
+      "volume": 38,
+      "empty_weight": 7,
+      "alpha": 0.85
+    },
+    {
+      "name": "Large suitcase",
+      "weight_limit": 50,
+      "volume": 110,
+      "empty_weight": 10,
+      "alpha": 0.8
+    },
+    {
+      "name": "Medium suitcase",
+      "weight_limit": 50,
+      "volume": 85,
+      "empty_weight": 9,
+      "alpha": 0.85
+    }
+  ],
+  "categories": [
+    {
+      "name": "electronics",
+      "min_items": 4,
+      "max_items": 10
+    },
+    {
+      "name": "clothing",
+      "min_items": 6,
+      "max_items": 11
+    },
+    {
+      "name": "toiletries",
+      "min_items": 4,
+      "max_items": 7
+    },
+    {
+      "name": "essentials",
+      "min_items": 2,
+      "max_items": 2
+    },
+    {
+      "name": "linens",
+      "min_items": 2,
+      "max_items": 5
+    },
+    {
+      "name": "school",
+      "min_items": 3,
+      "max_items": 6
+    },
+    {
+      "name": "kitchen",
+      "min_items": 1,
+      "max_items": 3
+    },
+    {
+      "name": "household",
+      "min_items": 0,
+      "max_items": 4
+    }
+  ],
+  "items": [
+    {
+      "name": "Laptop (14 in)",
+      "value": 10,
+      "weight": 3.5,
+      "volume": 1.2,
+      "categories": [
+        "electronics",
+        "school"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Laptop charger",
+      "value": 9,
+      "weight": 0.6,
+      "volume": 0.4,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Phone charger + cable",
+      "value": 9,
+      "weight": 0.2,
+      "volume": 0.2,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Power bank (20000 mAh)",
+      "value": 6,
+      "weight": 0.9,
+      "volume": 0.3,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": [
+        "Large suitcase",
+        "Medium suitcase"
+      ]
+    },
+    {
+      "name": "Over-ear headphones",
+      "value": 6,
+      "weight": 0.6,
+      "volume": 1.8,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Portable monitor (15.6 in)",
+      "value": 4,
+      "weight": 1.8,
+      "volume": 1.5,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Mechanical keyboard",
+      "value": 3,
+      "weight": 2.0,
+      "volume": 2.5,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Wireless mouse",
+      "value": 4,
+      "weight": 0.2,
+      "volume": 0.3,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Surge protector power strip",
+      "value": 7,
+      "weight": 1.3,
+      "volume": 1.0,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "LED desk lamp",
+      "value": 4,
+      "weight": 2.4,
+      "volume": 5.5,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Graphing calculator",
+      "value": 7,
+      "weight": 0.6,
+      "volume": 0.6,
+      "categories": [
+        "electronics",
+        "school"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Extension cord (10 ft)",
+      "value": 4,
+      "weight": 0.8,
+      "volume": 0.8,
+      "categories": [
+        "electronics"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "T-shirts (7)",
+      "value": 9,
+      "weight": 2.8,
+      "volume": 8.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Jeans (2 pairs)",
+      "value": 8,
+      "weight": 3.2,
+      "volume": 7.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Sweatpants (2 pairs)",
+      "value": 6,
+      "weight": 2.0,
+      "volume": 6.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Hoodies (2)",
+      "value": 7,
+      "weight": 3.0,
+      "volume": 10.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Winter coat (puffer)",
+      "value": 9,
+      "weight": 3.5,
+      "volume": 18.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Underwear and socks (10 days)",
+      "value": 10,
+      "weight": 2.0,
+      "volume": 5.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Button-down shirts (3)",
+      "value": 5,
+      "weight": 1.5,
+      "volume": 4.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Dress pants",
+      "value": 4,
+      "weight": 0.9,
+      "volume": 2.5,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Sneakers",
+      "value": 8,
+      "weight": 2.2,
+      "volume": 7.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Winter boots",
+      "value": 7,
+      "weight": 4.0,
+      "volume": 10.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Pajamas",
+      "value": 5,
+      "weight": 0.8,
+      "volume": 2.5,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Gym clothes (3 sets)",
+      "value": 5,
+      "weight": 1.8,
+      "volume": 5.0,
+      "categories": [
+        "clothing"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Toothbrush and toothpaste kit",
+      "value": 10,
+      "weight": 0.4,
+      "volume": 0.5,
+      "categories": [
+        "toiletries"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Shampoo and conditioner (full size)",
+      "value": 6,
+      "weight": 1.8,
+      "volume": 1.0,
+      "categories": [
+        "toiletries"
+      ],
+      "prohibited_in": [
+        "Carry-on"
+      ]
+    },
+    {
+      "name": "Body wash (full size)",
+      "value": 5,
+      "weight": 1.2,
+      "volume": 0.6,
+      "categories": [
+        "toiletries"
+      ],
+      "prohibited_in": [
+        "Carry-on"
+      ]
+    },
+    {
+      "name": "Deodorant (stick)",
+      "value": 8,
+      "weight": 0.2,
+      "volume": 0.2,
+      "categories": [
+        "toiletries"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Razor and shaving cream (aerosol)",
+      "value": 5,
+      "weight": 0.6,
+      "volume": 0.6,
+      "categories": [
+        "toiletries"
+      ],
+      "prohibited_in": [
+        "Carry-on"
+      ]
+    },
+    {
+      "name": "Sunscreen (8 oz)",
+      "value": 3,
+      "weight": 0.6,
+      "volume": 0.3,
+      "categories": [
+        "toiletries"
+      ],
+      "prohibited_in": [
+        "Carry-on"
+      ]
+    },
+    {
+      "name": "First-aid kit",
+      "value": 6,
+      "weight": 0.8,
+      "volume": 1.5,
+      "categories": [
+        "toiletries"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Hair dryer",
+      "value": 4,
+      "weight": 1.3,
+      "volume": 2.5,
+      "categories": [
+        "toiletries"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Medications and vitamins",
+      "value": 10,
+      "weight": 0.5,
+      "volume": 0.5,
+      "categories": [
+        "essentials"
+      ],
+      "prohibited_in": [
+        "Large suitcase",
+        "Medium suitcase"
+      ]
+    },
+    {
+      "name": "Passport and documents folder",
+      "value": 10,
+      "weight": 0.5,
+      "volume": 0.5,
+      "categories": [
+        "essentials"
+      ],
+      "prohibited_in": [
+        "Large suitcase",
+        "Medium suitcase"
+      ]
+    },
+    {
+      "name": "Bath towels (2)",
+      "value": 8,
+      "weight": 2.6,
+      "volume": 7.0,
+      "categories": [
+        "linens"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Twin XL sheet set",
+      "value": 9,
+      "weight": 2.2,
+      "volume": 5.0,
+      "categories": [
+        "linens"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Twin XL comforter",
+      "value": 8,
+      "weight": 4.5,
+      "volume": 30.0,
+      "categories": [
+        "linens"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Pillow",
+      "value": 7,
+      "weight": 1.8,
+      "volume": 20.0,
+      "categories": [
+        "linens"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Mattress topper (rolled)",
+      "value": 4,
+      "weight": 8.0,
+      "volume": 35.0,
+      "categories": [
+        "linens"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Textbooks (3)",
+      "value": 6,
+      "weight": 9.0,
+      "volume": 7.5,
+      "categories": [
+        "school"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Notebooks and binders",
+      "value": 6,
+      "weight": 3.0,
+      "volume": 4.0,
+      "categories": [
+        "school"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Pens, pencils, highlighters",
+      "value": 7,
+      "weight": 0.5,
+      "volume": 0.6,
+      "categories": [
+        "school"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "School backpack (empty)",
+      "value": 8,
+      "weight": 1.5,
+      "volume": 6.0,
+      "categories": [
+        "school"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Scissors (7 in)",
+      "value": 3,
+      "weight": 0.3,
+      "volume": 0.3,
+      "categories": [
+        "school"
+      ],
+      "prohibited_in": [
+        "Carry-on"
+      ]
+    },
+    {
+      "name": "Reusable water bottle",
+      "value": 7,
+      "weight": 0.8,
+      "volume": 1.0,
+      "categories": [
+        "kitchen"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Mug and utensil set",
+      "value": 4,
+      "weight": 1.2,
+      "volume": 1.5,
+      "categories": [
+        "kitchen"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Chef's knife",
+      "value": 3,
+      "weight": 0.5,
+      "volume": 0.6,
+      "categories": [
+        "kitchen"
+      ],
+      "prohibited_in": [
+        "Carry-on"
+      ]
+    },
+    {
+      "name": "Small pot and pan",
+      "value": 3,
+      "weight": 4.0,
+      "volume": 8.0,
+      "categories": [
+        "kitchen"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Rice cooker (3 cup)",
+      "value": 4,
+      "weight": 5.5,
+      "volume": 7.0,
+      "categories": [
+        "kitchen"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Compact umbrella",
+      "value": 5,
+      "weight": 0.9,
+      "volume": 0.8,
+      "categories": [
+        "household"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Hangers (10)",
+      "value": 3,
+      "weight": 1.5,
+      "volume": 4.0,
+      "categories": [
+        "household"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Laundry bag and detergent pods",
+      "value": 5,
+      "weight": 2.5,
+      "volume": 3.0,
+      "categories": [
+        "household"
+      ],
+      "prohibited_in": [
+        "Carry-on"
+      ]
+    },
+    {
+      "name": "Small toolkit",
+      "value": 3,
+      "weight": 2.0,
+      "volume": 1.5,
+      "categories": [
+        "household"
+      ],
+      "prohibited_in": [
+        "Carry-on"
+      ]
+    },
+    {
+      "name": "Photos and room decor",
+      "value": 3,
+      "weight": 2.5,
+      "volume": 4.0,
+      "categories": [
+        "household"
+      ],
+      "prohibited_in": []
+    },
+    {
+      "name": "Dumbbells (pair, 10 lb)",
+      "value": 3,
+      "weight": 20.0,
+      "volume": 2.5,
+      "categories": [
+        "household"
+      ],
+      "prohibited_in": []
+    }
+  ],
+  "units": {
+    "weight": "lb",
+    "volume": "L"
+  }
+}
