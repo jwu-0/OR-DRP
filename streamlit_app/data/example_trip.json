@@ -26,42 +26,58 @@
     {
       "name": "electronics",
       "min_items": 4,
-      "max_items": 10
+      "max_items": 10,
+      "soft": false,
+      "penalty": 0.0
     },
     {
       "name": "clothing",
       "min_items": 6,
-      "max_items": 11
+      "max_items": 11,
+      "soft": false,
+      "penalty": 0.0
     },
     {
       "name": "toiletries",
       "min_items": 4,
-      "max_items": 7
+      "max_items": 7,
+      "soft": false,
+      "penalty": 0.0
     },
     {
       "name": "essentials",
       "min_items": 2,
-      "max_items": 2
+      "max_items": 2,
+      "soft": false,
+      "penalty": 0.0
     },
     {
       "name": "linens",
       "min_items": 2,
-      "max_items": 5
+      "max_items": 5,
+      "soft": false,
+      "penalty": 0.0
     },
     {
       "name": "school",
       "min_items": 3,
-      "max_items": 6
+      "max_items": 6,
+      "soft": false,
+      "penalty": 0.0
     },
     {
       "name": "kitchen",
       "min_items": 1,
-      "max_items": 3
+      "max_items": 3,
+      "soft": false,
+      "penalty": 0.0
     },
     {
       "name": "household",
       "min_items": 0,
-      "max_items": 4
+      "max_items": 4,
+      "soft": false,
+      "penalty": 0.0
     }
   ],
   "items": [
@@ -74,7 +90,8 @@
         "electronics",
         "school"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Laptop charger",
@@ -84,7 +101,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Phone charger + cable",
@@ -94,7 +112,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Power bank (20000 mAh)",
@@ -107,7 +126,8 @@
       "prohibited_in": [
         "Large suitcase",
         "Medium suitcase"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Over-ear headphones",
@@ -117,7 +137,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Portable monitor (15.6 in)",
@@ -127,7 +148,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Mechanical keyboard",
@@ -137,7 +159,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Wireless mouse",
@@ -147,7 +170,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Surge protector power strip",
@@ -157,7 +181,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "LED desk lamp",
@@ -167,7 +192,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Graphing calculator",
@@ -178,7 +204,8 @@
         "electronics",
         "school"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Extension cord (10 ft)",
@@ -188,7 +215,8 @@
       "categories": [
         "electronics"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "T-shirts (7)",
@@ -198,7 +226,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Jeans (2 pairs)",
@@ -208,7 +237,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Sweatpants (2 pairs)",
@@ -218,7 +248,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Hoodies (2)",
@@ -228,7 +259,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Winter coat (puffer)",
@@ -238,7 +270,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Underwear and socks (10 days)",
@@ -248,7 +281,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Button-down shirts (3)",
@@ -258,7 +292,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Dress pants",
@@ -268,7 +303,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Sneakers",
@@ -278,7 +314,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Winter boots",
@@ -288,7 +325,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Pajamas",
@@ -298,7 +336,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Gym clothes (3 sets)",
@@ -308,7 +347,8 @@
       "categories": [
         "clothing"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Toothbrush and toothpaste kit",
@@ -318,7 +358,8 @@
       "categories": [
         "toiletries"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Shampoo and conditioner (full size)",
@@ -330,7 +371,8 @@
       ],
       "prohibited_in": [
         "Carry-on"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Body wash (full size)",
@@ -342,7 +384,8 @@
       ],
       "prohibited_in": [
         "Carry-on"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Deodorant (stick)",
@@ -352,7 +395,8 @@
       "categories": [
         "toiletries"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Razor and shaving cream (aerosol)",
@@ -364,7 +408,8 @@
       ],
       "prohibited_in": [
         "Carry-on"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Sunscreen (8 oz)",
@@ -376,7 +421,8 @@
       ],
       "prohibited_in": [
         "Carry-on"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "First-aid kit",
@@ -386,7 +432,8 @@
       "categories": [
         "toiletries"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Hair dryer",
@@ -396,7 +443,8 @@
       "categories": [
         "toiletries"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Medications and vitamins",
@@ -409,7 +457,8 @@
       "prohibited_in": [
         "Large suitcase",
         "Medium suitcase"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Passport and documents folder",
@@ -422,7 +471,8 @@
       "prohibited_in": [
         "Large suitcase",
         "Medium suitcase"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Bath towels (2)",
@@ -432,7 +482,8 @@
       "categories": [
         "linens"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Twin XL sheet set",
@@ -442,7 +493,8 @@
       "categories": [
         "linens"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Twin XL comforter",
@@ -452,7 +504,8 @@
       "categories": [
         "linens"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Pillow",
@@ -462,7 +515,8 @@
       "categories": [
         "linens"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Mattress topper (rolled)",
@@ -472,7 +526,8 @@
       "categories": [
         "linens"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Textbooks (3)",
@@ -482,7 +537,8 @@
       "categories": [
         "school"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Notebooks and binders",
@@ -492,7 +548,8 @@
       "categories": [
         "school"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Pens, pencils, highlighters",
@@ -502,7 +559,8 @@
       "categories": [
         "school"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "School backpack (empty)",
@@ -512,7 +570,8 @@
       "categories": [
         "school"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Scissors (7 in)",
@@ -524,7 +583,8 @@
       ],
       "prohibited_in": [
         "Carry-on"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Reusable water bottle",
@@ -534,7 +594,8 @@
       "categories": [
         "kitchen"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Mug and utensil set",
@@ -544,7 +605,8 @@
       "categories": [
         "kitchen"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Chef's knife",
@@ -556,7 +618,8 @@
       ],
       "prohibited_in": [
         "Carry-on"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Small pot and pan",
@@ -566,7 +629,8 @@
       "categories": [
         "kitchen"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Rice cooker (3 cup)",
@@ -576,7 +640,8 @@
       "categories": [
         "kitchen"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Compact umbrella",
@@ -586,7 +651,8 @@
       "categories": [
         "household"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Hangers (10)",
@@ -596,7 +662,8 @@
       "categories": [
         "household"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Laundry bag and detergent pods",
@@ -608,7 +675,8 @@
       ],
       "prohibited_in": [
         "Carry-on"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Small toolkit",
@@ -620,7 +688,8 @@
       ],
       "prohibited_in": [
         "Carry-on"
-      ]
+      ],
+      "required": false
     },
     {
       "name": "Photos and room decor",
@@ -630,7 +699,8 @@
       "categories": [
         "household"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     },
     {
       "name": "Dumbbells (pair, 10 lb)",
@@ -640,7 +710,8 @@
       "categories": [
         "household"
       ],
-      "prohibited_in": []
+      "prohibited_in": [],
+      "required": false
     }
   ],
   "units": {
